@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Circles mobile tests">
+    <parameter name="commonparam" value="somevalue"/>
+
+
+    <test name="Login test">
+        <parameter name="username" value="testusername"/>
+        <parameter name="password" value="testpassword"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="loginlogout"/>
+        </packages>
+    </test>
+
+    <test name="Add-on subscription tests">
+
+    </test>
+
+    <test name="Boost subscription tests">
+
+    </test>
+</suite>
